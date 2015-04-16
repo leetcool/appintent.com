@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	font-size: 19px;
+	line-height: 21px;
+	color: white;
+	background: #191919;
+	padding-bottom: 25px;
+	height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #ffb70a;
+}
+
+.clearfix{
+	clear: both;
+}
+section{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container{
+	width: 470px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
+hr{
+	border: 1px solid #b6b6b6;
+}
+/****/
+.title1{
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.title1 strong{
+	font-weight: 900;
+}
+.vidimg{
+	margin-left: -20px;
+	margin-right: -20px;
+}
+.title2{
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 300;
+	text-align: center;
+}
+/****/
+.thisoffer{
+	margin-top: 30px;
+	text-align: center;
+	background: #111111;
+	color: #c9c9c9;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.thisoffer strong{
+	display: block;
+	color: #ffb70a;
+	font-weight: 700;
+}
+/***/
+.answerfollowing{
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.answerfollowing strong{
+	color: #ffb70a;
+}
+
+/***/
+#divQuestions{
+	min-height: 200px;
+	text-align: center;
+}
+
+#divQuestions .questions a{
+	display: inline-block;
+	width: 300px;
+	max-width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	font-size: 21px;
+	line-height: 23px;
+	text-decoration: none !important;
+	color: #111111 !important;
+	border-radius: 5px;
+	font-weight: 400;
+	background: #bdbdbd; /* Old browsers */
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#bdbdbd), color-stop(0.99, #9c9c9c));
+	background: -webkit-linear-gradient(#bdbdbd 0%, #9c9c9c 99%);
+	background: -moz-linear-gradient(#bdbdbd 0%, #9c9c9c 99%);
+	background: -o-linear-gradient(#bdbdbd 0%, #9c9c9c 99%);
+	background: linear-gradient(#bdbdbd 0%, #9c9c9c 99%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdbdbd', endColorstr='#9c9c9c',GradientType=0 ); /* IE6-9 */
+}
+#divQuestions .questions a:hover, #divQuestions .questions a:active, #divQuestions .questions a:focus{
+	background: #ffa800; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffa800 0%, #ef6b00 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa800), color-stop(100%,#ef6b00)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffa800 0%,#ef6b00 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffa800 0%,#ef6b00 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffa800 0%,#ef6b00 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffa800 0%,#ef6b00 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa800', endColorstr='#ef6b00',GradientType=0 ); /* IE6-9 */
+font-weight: 700;
+}
+.questions, #congratulation, #analyzing{
+	display: none;
+}
+.questions h2{
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 900;
+	text-align: center;
+	display: inline-block;
+	background: #111111;
+	padding: 7px 15px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+.questions h3{
+	font-size: 21px;
+	line-height: 24px;
+	color: white;
+	font-weight: 700;
+	font-style: italic;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/***/
+#analyzing{
+	text-align: center;
+}
+#analyzing img{
+	margin-top: 15px;
+	max-width: 100%;
+}
+/***/
+#congratulation{
+	text-align: center;
+	margin-top: 30px;
+	background: url("../img/bg_congra.png") repeat-x;
+	padding-top: 1px;
+}
+#congratulation h3{
+	font-size: 23px;
+	line-height: 26px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	color:  #ffb70a;
+}
+#congratulation p{
+	display: inline-block;
+	color: #bdff67;
+	background: #111111;
+	font-weight: 400;
+	line-height: 23px;
+	margin: 2px;
+	padding: 3px 10px;
+}
+#congratulation a{
+	display: inline-block;
+	background: #ffa800; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffa800 0%, #ef6b00 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa800), color-stop(100%,#ef6b00)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffa800 0%,#ef6b00 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffa800 0%,#ef6b00 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffa800 0%,#ef6b00 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffa800 0%,#ef6b00 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa800', endColorstr='#ef6b00',GradientType=0 ); /* IE6-9 */
+color: #111111 !important;
+text-decoration: none !important;
+font-size: 20px;
+line-height: 30px;
+padding: 15px 20px;
+font-weight: 900;
+border-radius: 5px;
+margin-top: 30px;
+text-shadow: 1px 1px 1px #fea600;
+text-transform: uppercase;
+}
+#congratulation a span{
+	font-weight: 400;
+}
+
+@media screen and (max-width: 470px){
+	img{
+	max-width: 100%;
+	}
+	.vidimg{
+		margin: 0px;
+	}
+}
